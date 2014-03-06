@@ -12,4 +12,5 @@
 ---
 - hosts: go
   roles:
-     - role: go
+     - role: go-server
+     - role: go-agent
